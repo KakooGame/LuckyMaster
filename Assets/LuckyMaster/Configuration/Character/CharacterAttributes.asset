@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a708079e9a64d954e852fa3de894f04f, type: 3}
+  m_Name: CharacterAttributes
+  m_EditorClassIdentifier: 
+  strength: 0
+  dexterity: 0
+  constitution: 0
+  intelligence: 0
+  wisdom: 0
+  charisma: 0
+  healthPoints: 0
+  manaPoints: 0
+  stamina: 0
+  shieldPoints: 0
+  physicalAttackPower: 0
+  magicAttackPower: 0
+  attackSpeed: 0
+  criticalChance: 0
+  criticalDamage: 0
+  rangedAttackPower: 0
+  attackRange: 0
+  armor: 0
+  magicResistance: 0
+  elementalResistance: 0
+  crowdControlResistance: 0
+  healthRegeneration: 0
+  manaRegeneration: 0
+  staminaRegeneration: 0
+  lifeSteal: 0
+  manaSteal: 0
+  shieldAbsorption: 0
+  percentageDamage: 0
+  dodgeChance: 0
+  blockChance: 0
+  luck: 0
+  revivalChance: 0
+  movementSpeed: 0
+  dashDistance: 0
+  slideDuration: 0
+  firePower: 0
+  frostPower: 0
+  lightningPower: 0
+  poisonResistance: 0
+  summoningPower: 0
+  divineBlessing: 0
+  ragePoints: 0
+  experienceGainBonus: 0
+  lootDropBonus: 0
+  merchantDiscount: 0
+  itemCarryLimit: 0
