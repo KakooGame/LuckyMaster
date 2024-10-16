@@ -21927,6 +21927,8 @@ MonoBehaviour:
   aimIK: {fileID: 0}
   lookAtIK: {fileID: 0}
   characterHandleWeapon: {fileID: 0}
+  LmLookAtController: {fileID: 0}
+  currentWeaponAutoAim3D: {fileID: 0}
 --- !u!1 &3371481038165384483
 GameObject:
   m_ObjectHideFlags: 0
@@ -88106,6 +88108,7 @@ GameObject:
   - component: {fileID: 8298446857763893035}
   - component: {fileID: 7582370224265238478}
   - component: {fileID: 1520141634691530261}
+  - component: {fileID: 5176270628788085616}
   - component: {fileID: 2294224188223249432}
   m_Layer: 10
   m_Name: Container
@@ -88359,6 +88362,31 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     spineTargetOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &5176270628788085616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8700113757545842024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e9e2da527ff5d04bb25c3b6260e329d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ik: {fileID: 1520141634691530261}
+  target: {fileID: 2670050008338616311}
+  weight: 1
+  offset: {x: 0, y: 0, z: 0}
+  targetSwitchSmoothTime: 0.3
+  weightSmoothTime: 0.3
+  smoothTurnTowardsTarget: 1
+  maxRadiansDelta: 3
+  maxMagnitudeDelta: 3
+  slerpSpeed: 3
+  pivotOffsetFromRoot: {x: 0, y: 1, z: 0}
+  minDistance: 1
+  maxRootAngle: 45
 --- !u!114 &2294224188223249432
 MonoBehaviour:
   m_ObjectHideFlags: 0
